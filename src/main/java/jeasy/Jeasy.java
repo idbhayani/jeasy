@@ -19,6 +19,7 @@ public class Jeasy {
 	    JOpc.coInitialize();
 	    
 	//    JOpc jopc = new JOpc("localhost", "Matrikon.OPC.Simulation.1", "JOPC1");
+	    // Test against Prosys simulator
 	    JOpc jopc = new JOpc("localhost", "Prosys.OPC.Simulation", "JOPC1");
 
 	//    OpcItem item1 = new OpcItem("T101.F101", true, "");
